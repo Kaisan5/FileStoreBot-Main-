@@ -1,4 +1,4 @@
-#(©)t.me/Ahjin_Sprt
+#(©)t.me/Anime_Eternals
 
 import os
 import logging
@@ -38,7 +38,7 @@ FORCE_SUB_CHANNEL_4 = int(os.environ.get("FORCE_SUB_CHANNEL_4", "0"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {first}\n\n ɪ ᴀᴍ ᴍᴜʟᴛɪ ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ , ɪ ᴄᴀɴ sᴛᴏʀᴇ ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs ɪɴ sᴘᴇᴄɪғɪᴇᴅ ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ sᴘᴇᴄɪᴀʟ ʟɪɴᴋ » @Ahjin_Sprt</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>𝑯𝒆𝒚!! {mention}\n\n 𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝑻𝒐 𝑶𝒖𝒓 𝑵𝒆𝒙𝒖𝒔 𝑪𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚.𝑰𝒇 𝒚𝒐𝒖 𝒘𝒂𝒏𝒕 𝒕𝒐 𝒔𝒖𝒑𝒑𝒐𝒓𝒕 𝒐𝒖𝒓 𝒄𝒐𝒎𝒎𝒖𝒏𝒊𝒕𝒚, 𝒚𝒐𝒖 𝒄𝒂𝒏 𝒅𝒐 𝒔𝒐 𝒃𝒚 𝒔𝒖𝒃𝒔𝒄𝒓𝒊𝒃𝒊𝒏𝒈 𝒕𝒐 𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍. 𝑭𝒐𝒓 𝒎𝒐𝒓𝒆 𝒊𝒏𝒇𝒐𝒓𝒎𝒂𝒕𝒊𝒐𝒏 𝑱𝒐𝒊𝒏 𝒐𝒖𝒓 𝒄𝒉𝒂𝒏𝒏𝒆𝒍\n\n » @AnimeNexusNetwork\n\n 𝑻𝒉𝒂𝒏𝒌𝒔 𝑭𝒐𝒓 𝒚𝒐𝒖𝒓 𝑺𝒖𝒑𝒑𝒐𝒓𝒕 @Stelleron_Hunter</b>")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "").split()):
