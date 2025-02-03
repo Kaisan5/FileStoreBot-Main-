@@ -6,8 +6,8 @@
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/Shauryanoobhai/FileShare",
-  "logo": "https://telegra.ph/file/21034f4190632e5f571b0.jpg",
+  "repository": "https://github.com/Kaisan5/FileStoreBot-Main-",
+  "logo": "https://envs.sh/mSn.jpg",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
