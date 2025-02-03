@@ -7,7 +7,7 @@ from pyrogram.errors import RPCError
 import subprocess
 from datetime import datetime
 from config import ADMINS
-from levi import Bot as app
+from bot import Bot as app
 import asyncio
 from pyrogram import filters
 
