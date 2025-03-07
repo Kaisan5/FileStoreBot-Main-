@@ -106,3 +106,17 @@ class Bot(Client):
     async def stop(self, *args):
         await super().stop()
         self.LOGGER(__name__).info("Bot stopped.")
+
+
+from flask import Flask, jsonify
+from threading import Thread
+
+# Create Flask app
+flask_app = Flask(__name__)
+
+@flask_app.route('/uptime', methods=['GET'])
+def uptime():
+    return jsonify({"status": "ok"}), 200
+
+def run_flask():
+    flask_app.run(host="0.0.0.0", port=int(os.environ.get("FLASK_PORT", 5000)))
